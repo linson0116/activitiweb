@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package com.srit.demo.controller;
 
-import com.example.demo.utils.ActivitiUtils;
+import com.srit.demo.utils.ActivitiUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
