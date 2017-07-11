@@ -18,10 +18,11 @@ public class MyController {
         activitiUtils.deploymentProcessDefinition(depName,resName);
     }
     @RequestMapping("find")
-    public void find() {
+    public String find() {
         System.out.println("find");
 
         ActivitiUtils activitiUtils = new ActivitiUtils();
         activitiUtils.findProcessDefinition();
+        return "find";
     }
 }
